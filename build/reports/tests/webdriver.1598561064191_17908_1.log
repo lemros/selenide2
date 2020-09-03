@@ -1,0 +1,216 @@
+[1598561064.391][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35127
+[1598561064.391][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598561065.031][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\marek\\IdeaProjects\\testSelenide\\build\\downloads\\1598561064128_17908_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\marek\\IdeaProjects\\testSelenide\\build\\downloads\\1598561064128_17908_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598561065.033][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\marek\\IdeaProjects\\testSelenide\\build\\downloads\\1598561064128_17908_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598561065.034][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598561065.034][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1598561065.034][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\marek\AppData\Local\Temp\scoped_dir16072_542262490" data:,
+[1598561065.538][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598561067.570][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598561069.614][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\marek\\AppData\\Local\\Temp\\scoped_dir16072_542262490"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60182"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "59c9f98c24c1ab29015471ce371079ce"
+}
+[1598561069.657][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598561069.657][INFO]: Waiting for pending navigations...
+[1598561069.659][INFO]: Done waiting for pending navigations. Status: ok
+[1598561069.767][INFO]: Waiting for pending navigations...
+[1598561069.769][INFO]: Done waiting for pending navigations. Status: ok
+[1598561069.769][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1598561069.775][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND Navigate {
+   "url": "https://konoha.cz/novinky"
+}
+[1598561069.775][INFO]: Waiting for pending navigations...
+[1598561069.776][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.322][INFO]: Waiting for pending navigations...
+[1598561071.618][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.618][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE Navigate
+[1598561071.657][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#edit\\-name"
+}
+[1598561071.657][INFO]: Waiting for pending navigations...
+[1598561071.657][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.663][INFO]: Waiting for pending navigations...
+[1598561071.664][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.664][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9a231cdd-1dba-4c01-918c-f63038ec7458"
+}
+[1598561071.684][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9a231cdd-1dba-4c01-918c-f63038ec7458"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598561071.684][INFO]: Waiting for pending navigations...
+[1598561071.684][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.691][INFO]: Waiting for pending navigations...
+[1598561071.692][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.692][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE ExecuteScript true
+[1598561071.697][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND ClearElement {
+   "id": "9a231cdd-1dba-4c01-918c-f63038ec7458"
+}
+[1598561071.697][INFO]: Waiting for pending navigations...
+[1598561071.697][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.708][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1598561071.714][INFO]: Waiting for pending navigations...
+[1598561071.715][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.715][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE ClearElement
+[1598561071.719][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND TypeElement {
+   "id": "9a231cdd-1dba-4c01-918c-f63038ec7458",
+   "text": "97994385",
+   "value": [ "9", "7", "9", "9", "4", "3", "8", "5" ]
+}
+[1598561071.719][INFO]: Waiting for pending navigations...
+[1598561071.720][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.742][INFO]: Waiting for pending navigations...
+[1598561071.744][INFO]: Done waiting for pending navigations. Status: ok
+[1598561071.744][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE TypeElement
+[1598561071.749][INFO]: [59c9f98c24c1ab29015471ce371079ce] COMMAND Quit {
+
+}
+[1598561071.767][INFO]: [59c9f98c24c1ab29015471ce371079ce] RESPONSE Quit
