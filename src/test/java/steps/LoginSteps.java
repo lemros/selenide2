@@ -6,6 +6,7 @@ import base.TestBase;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import pages.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -57,5 +58,10 @@ public class LoginSteps extends TestBase {
     @Then("I should see (.*?) message$")
     public void iShouldSeeWarningMessage(String errorMessage) {
         loginPage.checkErrorMessage(errorMessage);
+    }
+
+    @When("I am logged with mobileToken")
+    public void iAmLoggedWithMobileToken() {
+
     }
 }

@@ -13,13 +13,16 @@ import static com.codeborne.selenide.Selenide.page;
 
 public class LoginPage extends TestBase {
     //first factor
-    //private SelenideElement ippidInput = $(byId("username"));
-    private SelenideElement ippidInput = $(byId("edit-name"));
-    //private SelenideElement pinInput = $(byId("password"));
-    private SelenideElement pinInput = $(byId("edit-pass"));
-    private SelenideElement submitFirstFactorButton = $(byId("edit-submit"));
+    private SelenideElement ippidInput = $(byId("username"));
+    //private SelenideElement ippidInput = $(byId("edit-name"));
+    private SelenideElement pinInput = $(byId("passwordInput"));
+    //private SelenideElement pinInput = $(byId("edit-pass"));
+    //private SelenideElement submitFirstFactorButton = $(byId("edit-submit"));
+    private SelenideElement submitFirstFactorButton = $(byName("login"));
 
     private SelenideElement errorMessegeText = $("div.error");
+    private SelenideElement pinErrorMessegeText = $(byId("pinOverlayError"));
+
 
     //second factor
     private SelenideElement tokenInput = $(byName("tokenInput"));

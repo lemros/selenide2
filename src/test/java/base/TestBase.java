@@ -13,8 +13,8 @@ public class TestBase {
     public static Properties prop;
 
     static {
-        //Configuration.baseUrl = "https://moja.csob.sk";
-        Configuration.baseUrl = "https://konoha.cz/novinky";
+        Configuration.baseUrl = "https://moja.csob.sk";
+        //Configuration.baseUrl = "https://konoha.cz/novinky";
         Configuration.timeout = 4000;
 
     }

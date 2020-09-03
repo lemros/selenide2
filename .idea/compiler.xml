@@ -9,5 +9,8 @@
         <module name="testSelenide" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="testSelenide" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

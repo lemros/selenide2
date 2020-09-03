@@ -1,13 +1,13 @@
 package base;
 
 import com.codeborne.selenide.Configuration;
-import cucumber.api.java.Before;
+import io.cucumber.java.Before;
 
 
 public class TaggedHooks {
 
     static {
-        Configuration.baseUrl = "http://localhost:80";
+        Configuration.baseUrl = "https://moja.csob.sk";
     }
 
     @Before
