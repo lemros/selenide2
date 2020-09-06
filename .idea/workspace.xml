@@ -14,72 +14,172 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c55f403-07cb-4c57-bcb6-9b8fc885c306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_5_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_create_meta_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_10_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_plugin_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_docstring_6_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_html_formatter_9_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_messages_13_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TaggedHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enumerators/ErrorMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_intellij_forms_rt_7_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jgoodies_forms_1_1_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logger/CucumberHTMLFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logger/CustomLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/enumerators/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gui/Gui.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gui/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/IdsBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/GuiRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/New.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2-sources.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598561788353.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566092978.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566092978.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566130913.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566130913.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566227320.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566227320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609679543.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609679543.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609688676.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609688676.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610027138.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610027138.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610036172.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610036172.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615264363.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615264363.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615272159.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615272159.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615332209.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615332209.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615340068.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615340068.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625710513.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625710513.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625718340.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625718340.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625749797.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625749797.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625758251.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625758251.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625826363.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625826363.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625875869.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625875869.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625884808.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625884808.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625920129.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625920129.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599120685008.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599120685008.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121322218.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121322218.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121350092.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121350092.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121381454.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121381454.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121513773.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121518122.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121518122.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121522540.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121522540.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121547296.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121547296.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121552365.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121552365.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121735477.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121735477.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121740619.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121740619.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121904745.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121904745.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121911667.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121911667.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561064191_17908_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561763838_14716_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561819360_18460_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561856339_8276_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564074584_14172_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564160927_19300_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564188530_13212_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564488560_14764_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564851931_9264_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564874222_7544_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564912695_15788_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564942575_16072_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564983599_17940_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565000710_10600_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565054393_13840_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565075100_16460_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565115630_16624_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565215074_14700_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565241738_12972_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565433549_15496_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565627711_3348_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565643654_7940_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565667177_2400_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565918620_7240_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566038300_12872_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566077862_5952_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566119092_18208_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566215555_8792_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566363757_18568_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566627606_19116_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566631110_14740_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566639054_5536_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598596730890_11248_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598605662807_7416_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607526459_14656_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607602886_8132_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607670868_15544_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607711177_11208_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607791126_16388_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598609657261_19708_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598610009228_3668_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598615247061_21056_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598615314469_16412_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625693119_16568_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625733387_15592_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625805698_21224_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625858788_19668_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625898834_19740_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120546461_18284_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120674684_18680_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120705415_10608_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120722018_13744_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121312063_9912_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121339956_23492_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121371354_5400_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121492770_9816_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121508112_12704_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121535551_3760_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121723951_6988_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121891168_17856_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599124764392_18216_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TaggedHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TaggedHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/GetPropertyValues.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TaggedHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TaggedHooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/GetPropertyValues.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testSelenide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testSelenide.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,33 +215,62 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenidetraining" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium_cucumber" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\test\resources\features" />
       <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\main\resources" />
       <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\main\resources\drivers\win" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="base" />
       <recent name="runners" />
+      <recent name="pages" />
+      <recent name="base" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\test\java\Ui" />
+      <recent name="C:\Users\marek\IdeaProjects\testSelenide\target" />
       <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\test" />
       <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\main\resources\drivers" />
       <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\main\resources\drivers\s" />
-      <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Failed login using wrong credentials">
+  <component name="RunManager" selected="Application.TestGui2">
+    <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.Gui" />
+      <module name="testSelenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ui.TestGui" />
+      <module name="testSelenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -158,7 +287,7 @@
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="steps base" />
+      <option name="GLUE" value="tests steps base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="testSelenide" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
@@ -174,35 +303,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Failed login using wrong credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Successful login with virtual mobile token #3 (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="steps base" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/New.feature" />
+      <option name="GLUE" value="tests steps base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="testSelenide" />
-      <option name="NAME_FILTER" value="^Failed login using wrong credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Failed login using wrong credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Failed login using wrong credentials" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-      <option name="GLUE" value="steps base" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="testSelenide" />
-      <option name="NAME_FILTER" value="^Successful login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful login" />
+      <option name="NAME_FILTER" value="^Successful login with virtual mobile token \#3$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful login with virtual mobile token \#3$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful login with virtual mobile token #3" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -223,18 +332,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.itShouldEnterOneTimeInvestment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testSelenide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="itShouldEnterOneTimeInvestment" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,17 +396,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Unnamed" />
-      <item itemvalue="JUnit.LoginTest.itShouldEnterOneTimeInvestment" />
+      <item itemvalue="Application.TestGui" />
+      <item itemvalue="Application.TestGui2" />
+      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="Cucumber Java.Scenario: Successful login with virtual mobile token #3 (1)" />
       <item itemvalue="Cucumber Java.Feature: Login" />
-      <item itemvalue="Cucumber Java.Scenario: Successful login" />
-      <item itemvalue="Cucumber Java.Scenario: Failed login using wrong credentials" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Failed login using wrong credentials" />
+        <item itemvalue="Application.TestGui2" />
         <item itemvalue="Cucumber Java.Feature: Login" />
-        <item itemvalue="Cucumber Java.Scenario: Successful login" />
-        <item itemvalue="JUnit.LoginTest.itShouldEnterOneTimeInvestment" />
+        <item itemvalue="Cucumber Java.Scenario: Successful login with virtual mobile token #3 (1)" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Application.TestGui" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +425,12 @@
       <workItem from="1598596310212" duration="17982000" />
       <workItem from="1599063996994" duration="1336000" />
       <workItem from="1599116960860" duration="3378000" />
-      <workItem from="1599120425341" duration="5284000" />
+      <workItem from="1599120425341" duration="7379000" />
+      <workItem from="1599150403752" duration="48000" />
+      <workItem from="1599203975627" duration="22000" />
+      <workItem from="1599228266497" duration="21000" />
+      <workItem from="1599228314564" duration="3720000" />
+      <workItem from="1599235887087" duration="57139000" />
     </task>
     <servers />
   </component>
@@ -335,23 +450,32 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1400" y="278" key="#Project_Structure" timestamp="1599125056388">
+    <state x="1400" y="278" key="#Project_Structure" timestamp="1599230517590">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1400" y="278" key="#Project_Structure/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599064082312" />
+    <state x="1400" y="278" key="#Project_Structure/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599230517590" />
     <state x="1400" y="278" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1599125056388" />
     <state x="734" y="355" width="1105" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599121257968">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="355" width="1105" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599121257968" />
-    <state x="1725" y="404" key="#com.intellij.ide.util.MemberChooser" timestamp="1598617844006">
+    <state x="1038" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599403668063">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1725" y="404" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1598617844005" />
+    <state x="1038" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599403668063" />
+    <state x="1725" y="404" key="#com.intellij.ide.util.MemberChooser" timestamp="1599407520291">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1725" y="404" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599231286927" />
+    <state x="1725" y="404" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599407520291" />
     <state x="1016" y="526" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599121147479">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1016" y="526" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599121147479" />
+    <state x="1009" y="490" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1599230284965">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1009" y="490" key="#com.intellij.ide.util.TreeFileChooserDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599230284965" />
     <state x="1742" y="628" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598560138347">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -360,55 +484,88 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1716" y="585" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1400@0.0.2560.1400" timestamp="1598560139940" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1599121247724">
+    <state x="51" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599402173762">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="51" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599402173762" />
+    <state x="1154" y="584" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1599338389341">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1154" y="584" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.2560.1400@0.0.2560.1400" timestamp="1599338389341" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1599400881759">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599064069123" />
-    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599121247724" />
-    <state width="2517" height="490" key="GridCell.Tab.0.bottom" timestamp="1599124763842">
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599400881759" />
+    <state width="2517" height="561" key="GridCell.Tab.0.bottom" timestamp="1599421171124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268993" />
-    <state width="2517" height="490" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.0.center" timestamp="1599124763842">
+    <state width="2517" height="561" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
+    <state width="2517" height="561" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171124" />
+    <state width="2517" height="561" key="GridCell.Tab.0.center" timestamp="1599421171123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268993" />
-    <state width="2517" height="490" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.0.left" timestamp="1599124763842">
+    <state width="2517" height="561" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
+    <state width="2517" height="561" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171123" />
+    <state width="2517" height="561" key="GridCell.Tab.0.left" timestamp="1599421171123">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268992" />
-    <state width="2517" height="490" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.0.right" timestamp="1599124763842">
+    <state width="2517" height="561" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
+    <state width="2517" height="561" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171123" />
+    <state width="2517" height="561" key="GridCell.Tab.0.right" timestamp="1599421171124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268993" />
-    <state width="2517" height="490" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1599124763842">
+    <state width="2517" height="561" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
+    <state width="2517" height="561" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171124" />
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1599419721118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1599124763842">
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
+    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1599419721118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1599124763842">
+    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
+    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1599419721118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
-    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1599124763842">
+    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1599419721118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599124763842" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
+    <state x="940" y="415" key="GuiDesigner.FormSource.Dialog" timestamp="1599336928291">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="940" y="415" key="GuiDesigner.FormSource.Dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599336928291" />
     <state x="1450" y="355" key="Maven.ArtifactSearchDialog" timestamp="1598596321497">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1450" y="355" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598596321497" />
-    <state x="1421" y="348" key="SettingsEditor" timestamp="1599120383516">
+    <state x="1421" y="348" key="SettingsEditor" timestamp="1599399384798">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1421" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599120383516" />
+    <state x="1421" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599399384798" />
+    <state x="1159" y="494" key="UIDesigner.ListEditorDialog" timestamp="1599406584073">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1159" y="494" key="UIDesigner.ListEditorDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599229989616" />
+    <state x="1159" y="494" key="UIDesigner.ListEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599406584073" />
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599383054245">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599383054245" />
+    <state x="1050" y="580" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1599230287507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1050" y="580" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599230287507" />
+    <state x="825" y="436" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599250118618">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="825" y="436" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400@0.0.2560.1400" timestamp="1599250118618" />
     <state x="1180" y="358" width="585" height="801" key="find.popup" timestamp="1599125296808">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -417,6 +574,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1023" y="621" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598618980625" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1599399990072">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599399990072" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,6 +587,15 @@
           <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Logger/CustomLogger.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -14,23 +14,13 @@ public class TestBase {
 
     static {
         Configuration.baseUrl = "https://moja.csob.sk";
-        //Configuration.baseUrl = "https://konoha.cz/novinky";
         Configuration.timeout = 4000;
 
     }
 
     @Before
     public void setUp() {
-        try {
-            prop = new Properties();
-            FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/resources/config/config.properties");
-            prop.load(ip);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-
-        }        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/win/chromedriver84_win.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/win/chromedriver84_win.exe");
     }
 
 }

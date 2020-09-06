@@ -19,7 +19,14 @@ Feature: Test prihlasenia
       | Ippid      | 97994385 | Pin      | 1357 | nieco       |
 
   Scenario: Successful login with virtual mobile token #2
-    When I am logged with
-  mobileToken
+    When I am logged with mobileToken
+
+  Scenario: Successful login with virtual mobile token #3
+    When nieco
+    And I fill in Ippid with: 97994385
+    And I fill in Pin with: 12345
+    Then Iclick on Login Button
+
+
 
 

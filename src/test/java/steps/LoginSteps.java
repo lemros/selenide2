@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.LoginPage;
 
+import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selenide.open;
 
 import java.lang.reflect.InvocationTargetException;
@@ -37,7 +38,7 @@ public class LoginSteps extends TestBase {
 
 
     @And("^I fill in (.*?) with (.*?)$")
-    public void i_enter_into(String inputName, String string) {
+    public void i_enter_into2(String inputName, String string) {
         String methodName = "enter" + inputName;
         invokeMethodFromStringName(methodName, string);
     }
@@ -61,7 +62,13 @@ public class LoginSteps extends TestBase {
     }
 
     @When("I am logged with mobileToken")
-    public void iAmLoggedWithMobileToken() {
+    public void iAmLoggedWithMobileToken() throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+        System.out.println(byId("username").getClass());
+        Class<?> cl = Class.forName("pages.LoginPage");
 
+// Call no-args constructor
+        Object newInstance = cl.newInstance();
+        System.out.println(newInstance.getClass());
+        
     }
 }
