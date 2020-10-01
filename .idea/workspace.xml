@@ -9,177 +9,67 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c55f403-07cb-4c57-bcb6-9b8fc885c306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_intellij_forms_rt_7_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jgoodies_forms_1_1_preview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logger/CucumberHTMLFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logger/CustomLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enumerators/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/Gui.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/Gui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/IdsBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/GuiRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/New.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_owasp_java_html_sanitizer_owasp_java_html_sanitizer_20191001_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_trivago_rta_cluecumber_report_plugin_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_monochromata_cucumber_reporting_plugin_4_0_84.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_15_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_gsonfire_gson_fire_1_9_0_alpha2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_masterthought_cucumber_reporting_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logger/PrettyReports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/_remote.repositories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2-sources.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.jar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2/commons-logging-1.2.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598561788353.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566092978.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566092978.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566130913.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566130913.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566227320.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598566227320.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609679543.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609679543.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609688676.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598609688676.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610027138.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610027138.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610036172.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598610036172.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615264363.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615264363.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615272159.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615272159.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615332209.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615332209.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615340068.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598615340068.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625710513.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625710513.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625718340.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625718340.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625749797.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625749797.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625758251.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625758251.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625826363.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625826363.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625875869.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625875869.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625884808.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625884808.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625920129.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1598625920129.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599120685008.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599120685008.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121322218.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121322218.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121350092.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121350092.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121381454.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121381454.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121513773.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121518122.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121518122.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121522540.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121522540.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121547296.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121547296.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121552365.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121552365.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121735477.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121735477.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121740619.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121740619.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121904745.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121904745.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121911667.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1599121911667.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561064191_17908_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561763838_14716_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561819360_18460_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598561856339_8276_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564074584_14172_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564160927_19300_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564188530_13212_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564488560_14764_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564851931_9264_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564874222_7544_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564912695_15788_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564942575_16072_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598564983599_17940_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565000710_10600_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565054393_13840_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565075100_16460_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565115630_16624_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565215074_14700_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565241738_12972_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565433549_15496_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565627711_3348_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565643654_7940_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565667177_2400_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598565918620_7240_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566038300_12872_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566077862_5952_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566119092_18208_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566215555_8792_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566363757_18568_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566627606_19116_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566631110_14740_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598566639054_5536_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598596730890_11248_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598605662807_7416_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607526459_14656_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607602886_8132_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607670868_15544_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607711177_11208_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598607791126_16388_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598609657261_19708_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598610009228_3668_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598615247061_21056_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598615314469_16412_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625693119_16568_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625733387_15592_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625805698_21224_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625858788_19668_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1598625898834_19740_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120546461_18284_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120674684_18680_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120705415_10608_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599120722018_13744_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121312063_9912_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121339956_23492_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121371354_5400_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121492770_9816_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121508112_12704_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121535551_3760_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121723951_6988_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599121891168_17856_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/webdriver.1599124764392_18216_1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TaggedHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TaggedHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logger/CucumberHTMLFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/GuiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/GuiRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/GetPropertyValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TaggedHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TaggedHooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/GetPropertyValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.LoginTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.LoginTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/win/chromedriver84_win.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/New.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/SepaPayment.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testSelenide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testSelenide.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +90,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\marek\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.6397.94\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Users\marek\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7319.50\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -215,12 +105,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium_cucumber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenidetraining" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+    <property name="settings.editor.selected.configurable" value="Groovy compiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -244,7 +134,7 @@
       <recent name="C:\Users\marek\IdeaProjects\testSelenide\src\main\resources\drivers\s" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestGui2">
+  <component name="RunManager" selected="Application.Gui">
     <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.Gui" />
       <module name="testSelenide" />
@@ -271,15 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -395,16 +283,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Unnamed" />
+      <item itemvalue="Application.Gui" />
       <item itemvalue="Application.TestGui" />
-      <item itemvalue="Application.TestGui2" />
-      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="Cucumber Java.Unnamed" />
       <item itemvalue="Cucumber Java.Scenario: Successful login with virtual mobile token #3 (1)" />
       <item itemvalue="Cucumber Java.Feature: Login" />
+      <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestGui2" />
+        <item itemvalue="Application.Gui" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: Successful login with virtual mobile token #3 (1)" />
         <item itemvalue="JUnit.Runner" />
@@ -430,7 +318,12 @@
       <workItem from="1599203975627" duration="22000" />
       <workItem from="1599228266497" duration="21000" />
       <workItem from="1599228314564" duration="3720000" />
-      <workItem from="1599235887087" duration="57139000" />
+      <workItem from="1599235887087" duration="66169000" />
+      <workItem from="1599589432427" duration="4975000" />
+      <workItem from="1599680930568" duration="5685000" />
+      <workItem from="1600250860306" duration="656000" />
+      <workItem from="1600792513066" duration="665000" />
+      <workItem from="1600869699801" duration="595000" />
     </task>
     <servers />
   </component>
@@ -450,10 +343,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1400" y="278" key="#Project_Structure" timestamp="1599230517590">
+    <state x="1400" y="278" key="#Project_Structure" timestamp="1599592764728">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1400" y="278" key="#Project_Structure/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599230517590" />
+    <state x="1400" y="278" key="#Project_Structure/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599592764728" />
     <state x="1400" y="278" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1599125056388" />
     <state x="734" y="355" width="1105" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599121257968">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -492,72 +385,73 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1154" y="584" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/0.0.2560.1400@0.0.2560.1400" timestamp="1599338389341" />
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1599400881759">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1599721225188">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599064069123" />
-    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599400881759" />
-    <state width="2517" height="561" key="GridCell.Tab.0.bottom" timestamp="1599421171124">
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599721225188" />
+    <state width="2517" height="565" key="GridCell.Tab.0.bottom" timestamp="1599594455057">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268993" />
-    <state width="2517" height="561" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
-    <state width="2517" height="561" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171124" />
-    <state width="2517" height="561" key="GridCell.Tab.0.center" timestamp="1599421171123">
+    <state width="2517" height="565" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599594455057" />
+    <state width="2517" height="561" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544049" />
+    <state width="2517" height="565" key="GridCell.Tab.0.center" timestamp="1599594455056">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268993" />
-    <state width="2517" height="561" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
-    <state width="2517" height="561" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171123" />
-    <state width="2517" height="561" key="GridCell.Tab.0.left" timestamp="1599421171123">
+    <state width="2517" height="565" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599594455056" />
+    <state width="2517" height="561" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544049" />
+    <state width="2517" height="565" key="GridCell.Tab.0.left" timestamp="1599594455056">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268992" />
-    <state width="2517" height="561" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
-    <state width="2517" height="561" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171123" />
-    <state width="2517" height="561" key="GridCell.Tab.0.right" timestamp="1599421171124">
+    <state width="2517" height="565" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599594455056" />
+    <state width="2517" height="561" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544048" />
+    <state width="2517" height="565" key="GridCell.Tab.0.right" timestamp="1599594455056">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="398" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@-1920.0.1920.1040" timestamp="1598683268993" />
-    <state width="2517" height="561" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599232143230" />
-    <state width="2517" height="561" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599421171124" />
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1599419721118">
+    <state width="2517" height="565" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599594455056" />
+    <state width="2517" height="561" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544049" />
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1599581544046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
-    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1599419721118">
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544046" />
+    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1599581544046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
-    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1599419721118">
+    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544046" />
+    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1599581544046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
-    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1599419721118">
+    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544046" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1599581544046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599419721118" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599581544046" />
     <state x="940" y="415" key="GuiDesigner.FormSource.Dialog" timestamp="1599336928291">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="940" y="415" key="GuiDesigner.FormSource.Dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599336928291" />
-    <state x="1450" y="355" key="Maven.ArtifactSearchDialog" timestamp="1598596321497">
+    <state x="1450" y="355" key="Maven.ArtifactSearchDialog" timestamp="1599502187002">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1450" y="355" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598596321497" />
-    <state x="1421" y="348" key="SettingsEditor" timestamp="1599399384798">
+    <state x="1450" y="355" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599502187002" />
+    <state x="1421" y="348" key="SettingsEditor" timestamp="1599591468245">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1421" y="348" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599591468245" />
     <state x="1421" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1599399384798" />
     <state x="1159" y="494" key="UIDesigner.ListEditorDialog" timestamp="1599406584073">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1159" y="494" key="UIDesigner.ListEditorDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1599229989616" />
     <state x="1159" y="494" key="UIDesigner.ListEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599406584073" />
-    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599383054245">
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599500615468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599383054245" />
+    <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1599500615468" />
     <state x="1050" y="580" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1599230287507">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

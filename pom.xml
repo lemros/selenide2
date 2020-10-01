@@ -17,8 +17,75 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>com.trivago.rta</groupId>
+                <artifactId>cluecumber-report-plugin</artifactId>
+                <version>2.5.0</version>
+                <executions>
+                    <execution>
+                        <id>report</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>reporting</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                <!-- The only two mandatory properties -->
+                <sourceJsonReportDirectory>D:/selenite/report/TEST.json</sourceJsonReportDirectory>
+                <generatedHtmlReportDirectory>D:/selenite/report</generatedHtmlReportDirectory>
+
+                <!-- Optional custom parameters that are shown on the start page (if they have a value) -->
+                <!-- If a key starts with an underscore ("_"), only the value is displayed. -->
+                <customParameters>
+                    <Custom_Parameter>This is a test</Custom_Parameter>
+                    <Custom_URL>http://www.google.com</Custom_URL>
+                    <_KeysStartingWithAnUnderscoreAreHidden>This is a long text that is displayed without the key.
+                        This can be used to display longer texts in the report!
+                    </_KeysStartingWithAnUnderscoreAreHidden>
+                </customParameters>
+
+                <!-- Optional report page title -->
+                <customPageTitle>My Report</customPageTitle>
+
+                <!-- Optional custom colors for passed, failed and skipped -->
+                <!-- <customStatusColorPassed>#017FAF</customStatusColorPassed> -->
+                <!-- <customStatusColorFailed>#C94A38</customStatusColorFailed> -->
+                <!-- <customStatusColorSkipped>#F48F00</customStatusColorSkipped> -->
+
+                <!-- Optional start page: ALL_SCENARIOS (default), SCENARIO_SEQUENCE, ALL_TAGS, ALL_STEPS, ALL_FEATURES -->
+                <startPage>ALL_FEATURES</startPage>
+
+                <!-- Optional custom parameters file -->
+                <!--<customParametersFile>custom/custom.properties</customParametersFile>-->
+
+                <!-- Optional: mark scenarios as failed that contain pending or undefined steps (default: false) -->
+                <failScenariosOnPendingOrUndefinedSteps>true</failScenariosOnPendingOrUndefinedSteps>
+
+                <!-- Optional custom CSS for custom styling -->
+                <!-- <customCss>custom/custom.css</customCss> -->
+
+                <!-- Optional properties to expand scenario hooks, step hooks and doc strings when scenario details are shown (default: false) -->
+                <expandBeforeAfterHooks>true</expandBeforeAfterHooks>
+                <expandStepHooks>true</expandStepHooks>
+                <expandDocStrings>true</expandDocStrings>
+
+                <!-- optional: Cluecumber log level -->
+                <!--<logLevel>default</logLevel>-->
+                <logLevel>compact</logLevel>
+                <!--<logLevel>minimal</logLevel>-->
+                <!--<logLevel>off</logLevel>-->
+
+                <!-- Optionally skip the whole report generation -->
+                <!--<skip>true</skip>-->
+                </configuration>
+
+            </plugin>
         </plugins>
     </build>
+
+
 
     <dependencies>
 
@@ -29,6 +96,16 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.trivago.rta</groupId>
+            <artifactId>cluecumber-report-plugin</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.monochromata.cucumber</groupId>
+            <artifactId>reporting-plugin</artifactId>
+            <version>4.0.84</version>
+        </dependency>
 
         <dependency>
             <groupId>com.intellij</groupId>

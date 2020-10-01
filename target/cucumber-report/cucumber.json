@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-08T19:42:12.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "base.TaggedHooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Successful login with virtual mobile token #3",
+        "description": "",
+        "id": "test-prihlasenia;successful-login-with-virtual-mobile-token-#3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5842704100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "nieco",
+            "match": {
+              "location": "steps.Steps.nieco()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "Element not found {By.id: username}\r\nExpected: visible or transparent: visible or have css value opacity\u003d0\r\nScreenshot: file:/C:/Users/marek/IdeaProjects/testSelenide/build/reports/tests/1599594142805.0.png\r\nPage source: file:/C:/Users/marek/IdeaProjects/testSelenide/build/reports/tests/1599594142805.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\r\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:56)\r\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:133)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:87)\r\n\tat com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:112)\r\n\tat com.codeborne.selenide.commands.SetValue.execute(SetValue.java:36)\r\n\tat com.codeborne.selenide.commands.Val.execute(Val.java:32)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:152)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:104)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:70)\r\n\tat com.sun.proxy.$Proxy18.val(Unknown Source)\r\n\tat tests.Functions.fillInputWithStringValue(Functions.java:32)\r\n\tat steps.Steps.fillInputWithString(Steps.java:21)\r\n\tat ✽.I fill in Ippid with: 97994385(file:///D:/selenide/temp/New.feature:5)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: chrome\u003d84.0.4147.135)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-FUDTJA0\u0027, ip: \u0027192.168.68.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\marek\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a18bbd18f9673c64689a7f8a22c46726\n*** Element info: {Using\u003did, value\u003dusername}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:65)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:40)\r\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:101)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:72)\r\n\tat com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:112)\r\n\tat com.codeborne.selenide.commands.SetValue.execute(SetValue.java:36)\r\n\tat com.codeborne.selenide.commands.Val.execute(Val.java:32)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:152)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:104)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:70)\r\n\tat com.sun.proxy.$Proxy18.val(Unknown Source)\r\n\tat tests.Functions.fillInputWithStringValue(Functions.java:32)\r\n\tat steps.Steps.fillInputWithString(Steps.java:21)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\r\n\tat runners.GuiRunner.run(GuiRunner.java:78)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\n",
+              "duration": 4452971600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I fill in Ippid with: 97994385",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ippid",
+                  "offset": 10
+                },
+                {
+                  "val": "97994385",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.Steps.fillInputWithString(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test prihlasenia",
+    "description": "",
+    "id": "test-prihlasenia",
+    "keyword": "Feature",
+    "uri": "file:///D:/selenide/temp/New.feature",
+    "tags": []
+  }
+]

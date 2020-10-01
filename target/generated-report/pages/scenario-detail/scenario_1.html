@@ -1,0 +1,512 @@
+
+    <!--
+    Copyright 2019 trivago N.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <base href="../..">
+    <head title="Cluecumber Report - Scenario Detail">
+        <title>Cluecumber Report - Scenario Detail</title>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Security-Policy" content="default-src *  data: blob: 'unsafe-inline' 'unsafe-eval';
+script-src * data: blob: 'unsafe-inline' 'unsafe-eval';
+connect-src * data: blob: 'unsafe-inline';
+img-src * data: blob: 'unsafe-inline';
+frame-src * data: blob: ;
+style-src * data: blob: 'unsafe-inline';
+font-src * data: blob: 'unsafe-inline';"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Cluecumber Report">
+<meta name="author" content="Cluecumber Report Plugin version 2.5.0">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/datatables.min.css">
+<link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+<link rel="stylesheet" href="css/cluecumber.css" type="text/css">
+<link rel="stylesheet" href="css/cluecumber-custom.css"/>
+<link rel="stylesheet" href="css/cluecumber-additional.css"/>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datatables.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+            // Data tables
+            $('.renderAsDataTable').on('draw.dt', function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            }).DataTable({
+                "oLanguage": {
+                    "sSearch": "Search:"
+                },
+                "pageLength": 25,
+                "responsive": true
+            });
+
+            $('.collapse').on('shown.bs.collapse', function (e) {
+                $(e.target).find("iframe").each(function (index, iframe) {
+                    resizeIframe(iframe);
+                })
+            });
+
+            // Lightbox
+            $("a.grouped_elements").fancybox();
+
+            // Tool tips
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Chart
+            var canvas = document.getElementById('chart-area');
+            var ctx = canvas.getContext("2d");
+            var chart = new Chart(ctx, {
+  "data": {
+    "labels": [
+      "base.TaggedHooks.setUp()",
+      "nieco",
+      "I fill in Ippid with: 97994385"
+    ],
+    "datasets": [
+      {
+        "data": [
+          0,
+          5,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)",
+          "rgba(40, 167, 69, 1.000)"
+        ],
+        "label": "passed",
+        "stack": "complete"
+      },
+      {
+        "data": [
+          0,
+          0,
+          4
+        ],
+        "backgroundColor": [
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)",
+          "rgba(220, 53, 69, 1.000)"
+        ],
+        "label": "failed",
+        "stack": "complete"
+      },
+      {
+        "data": [
+          0,
+          0,
+          0
+        ],
+        "backgroundColor": [
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)",
+          "rgba(255, 193, 7, 1.000)"
+        ],
+        "label": "skipped",
+        "stack": "complete"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "xAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 0,
+            "display": false
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Steps"
+          },
+          "stepSize": 0.0
+        }
+      ],
+      "yAxes": [
+        {
+          "ticks": {
+            "min": 0,
+            "stepSize": 5,
+            "display": true
+          },
+          "stacked": true,
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Step Runtime (seconds)"
+          },
+          "stepSize": 0.0
+        }
+      ]
+    },
+    "events": [
+      "click",
+      "mousemove"
+    ]
+  },
+  "type": "bar"
+});
+
+            var original;
+            if (chart.config.type === "pie") {
+                original = Chart.defaults.pie.legend.onClick;
+            } else {
+                original = Chart.defaults.global.legend.onClick;
+            }
+
+            chart.options.onClick = function (evt, elements) {
+                if (chart.config.type !== "pie") return;
+                chartArea = elements[0];
+                if (chartArea === undefined) return;
+                chartArea.hidden = !chartArea.hidden;
+                chart.update();
+                toggleVisibilityByStatus(chartArea._model.label, !chartArea.hidden)
+            };
+
+            chart.options.legend.onClick = function (evt, label) {
+                original.call(this, evt, label);
+                toggleVisibilityByStatus(label.text, label.hidden);
+            };
+
+            function toggleVisibilityByStatus(statusText, show) {
+                var card = $("#card_" + statusText);
+                if (card !== undefined) {
+                    if (show) {
+                        card.show();
+                    } else {
+                        card.hide();
+                    }
+                }
+
+                var row = $(".table-row-" + statusText);
+                if (row !== undefined) {
+                    if (show) {
+                        row.show();
+                    } else {
+                        row.hide();
+                    }
+                }
+            }
+
+
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='before-after-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='step-hooks-button']").click();
+            }
+            if (false) {
+                $(".btn-outline-secondary[data-cluecumber-item='doc-strings-button']").click();
+            }
+        }
+    );
+
+    function resizeIframe(iframe) {
+        iframe.style.height = (iframe.contentWindow.document.body.scrollHeight + 25) + 'px';
+    }
+</script>    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-summary.html">All Scenarios</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/scenario-sequence.html">Scenario Sequence</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/tag-summary.html">All Tags</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/step-summary.html">All Steps</a>
+                    </li>
+                    <li class="nav-item">
+                                <a class="nav-link " href="pages/feature-summary.html">All Features</a>
+                    </li>
+            </ul>
+            <span class="text-light">2020-09-08 21:35:13</span>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="cluecumber-template">
+            <div class="pb-2 mt-4 mb-2 border-bottom">
+                    <h5>
+                            <a href="pages/feature-scenarios/feature_0.html">Test prihlasenia</a>
+                        <span class="small">file:///D:/selenide/temp/New.feature</span>
+                    </h5>
+                    <h3>Successful login with virtual mobile token #3</h3>
+            </div>
+
+    <div class="row" id="scenario-detail">
+    <div class="col-sm-6  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Step Results</div>
+            <div class="card-body">
+    <div id="canvas-holder" class="w-100 text-center" style="min-height: 15rem;" data-cluecumber-item="chart">
+        <canvas id="chart-area" class="w-100"></canvas>
+    </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Scenario Info</div>
+            <div class="card-body">
+                <li class="list-group-item">Started on:<br>2020-09-08 21:33:24</li>
+                <li class="list-group-item">Ended on:<br>2020-09-08 21:33:34</li>
+            <li class="list-group-item">Test Runtime:<br>0m 10s 316ms</li>
+            <li class="list-group-item">            </li>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Step Summary</div>
+            <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    2         Steps
+
+                </li>
+                <li class="list-group-item">
+                    1 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+
+                    <br>
+                    1 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+
+                    <br>
+                    0 skipped     <i class="color-skipped cluecumber-icon icon-skipped" data-toggle="tooltip"
+       title="skipped"><span style="display:none">skipped</span></i>
+
+                </li>
+            </ul>
+                <button class="btn btn-outline-secondary btn-block collapsed" type="button" data-toggle="collapse"
+                        aria-expanded="true" data-cluecumber-item="before-after-hooks-button"
+                        data-target=".scenarioHook">Scenario Hooks
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <ul class="list-group list-group-flush">
+    <div class="col-sm-12 scenarioHook collapse h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Before Hooks</div>
+            <div class="card-body">
+                <li class="list-group-item">
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-1 text-left small">1.</div>
+                            <div class="col-8 text-left">
+                                <i>base.TaggedHooks.setUp()</i>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 00s 002ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+                        </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12  h-auto" data-cluecumber-item="card">
+        <div class="card h-100">
+                <div class="card-header">Steps</div>
+            <div class="card-body">
+                <li class="list-group-item">
+
+
+                        <div class="row row_passed table-row-passed">
+                            <div class="col-1 text-left small">1.</div>
+                            <div class="col-8 text-left">
+                                <span data-toggle="tooltip" title="steps.Steps.nieco()">
+                                    <a href="pages/step-scenarios/step_340210984.html"><span
+                                                class="keyword">When </span> nieco</a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 05s 864ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+       title="passed"><span style="display:none">passed</span></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row row_failed table-row-failed">
+                            <div class="col-1 text-left small">2.</div>
+                            <div class="col-8 text-left">
+                                <span data-toggle="tooltip" title="steps.Steps.fillInputWithString(java.lang.String,java.lang.String)">
+                                    <a href="pages/step-scenarios/step_01143213900.html"><span
+                                                class="keyword">And </span> I fill in <span class="parameter">Ippid</span> with: <span class="parameter">97994385</span></a>
+                                </span>
+                            </div>
+                            <div class="col-2 text-left small">
+                                0m 04s 450ms
+                            </div>
+                            <div class="col-1 text-right">
+    <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+       title="failed"><span style="display:none">failed</span></i>
+                            </div>
+
+        <div class="row w-100 p-3 m-0 scenarioErrorMessage">
+            <div class="w-100 text-left border border-danger">
+                <pre class="text-danger small p-2">Element not found {By.id: username}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: <a href='file:/C:/Users/marek/IdeaProjects/testSelenide/build/reports/tests/1599593614483.0.png' target='_blank'>file:/C:/Users/marek/IdeaProjects/testSelenide/build/reports/tests/1599593614483.0.png</a>
+Page source: <a href='file:/C:/Users/marek/IdeaProjects/testSelenide/build/reports/tests/1599593614483.0.html' target='_blank'>file:/C:/Users/marek/IdeaProjects/testSelenide/build/reports/tests/1599593614483.0.html</a>
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {&#34;method&#34;:&#34;css selector&#34;,&#34;selector&#34;:&#34;#username&#34;}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:56)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:133)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:87)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:112)
+	at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:36)
+	at com.codeborne.selenide.commands.Val.execute(Val.java:32)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:152)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:104)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:70)
+	at com.sun.proxy.$Proxy18.val(Unknown Source)
+	at tests.Functions.fillInputWithStringValue(Functions.java:32)
+	at steps.Steps.fillInputWithString(Steps.java:21)
+	at &#226;&#347;&#733;.I fill in Ippid with: 97994385(<a href='file:///D:/selenide/temp/New.feature:5)' target='_blank'>file:///D:/selenide/temp/New.feature:5)</a>
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&#34;method&#34;:&#34;css selector&#34;,&#34;selector&#34;:&#34;#username&#34;}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: <a href='https://www.seleniumhq.org/exceptions/no_such_element.html' target='_blank'>https://www.seleniumhq.org/exceptions/no_such_element.html</a>
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FUDTJA0', ip: '192.168.68.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\marek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6381392cdb6512bd2af9efc107e7d579
+*** Element info: {Using=id, value=username}
+	at jdk.internal.reflect.GeneratedConstructorAccessor8.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:65)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:40)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:101)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:72)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:112)
+	at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:36)
+	at com.codeborne.selenide.commands.Val.execute(Val.java:32)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:152)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:104)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:70)
+	at com.sun.proxy.$Proxy18.val(Unknown Source)
+	at tests.Functions.fillInputWithStringValue(Functions.java:32)
+	at steps.Steps.fillInputWithString(Steps.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at runners.GuiRunner.run(GuiRunner.java:78)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre>
+            </div>
+        </div>
+                        </div>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    </ul>
+        </div>
+    </main>
+
+<footer class="footer navbar-dark">
+    <div class="container-fluid">
+        <span>Cluecumber Report Plugin version 2.5.0 - Report generated on 2020-09-08 21:35:13.</span>
+    </div>
+</footer>    </body>
+    </html>
+

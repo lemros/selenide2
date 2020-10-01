@@ -25,6 +25,8 @@ public class GuiRunner implements Runnable {
         tempDir = new File(Constants.DESTINATION + "/temp");
         makeTempFeatureCopies(tempDir, listOfFeature);
         Configuration.baseUrl = domain;
+        System.setProperty("cucumber.options", "--features D:/selenide/temp/ --tags ~@ignore");
+
         System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/win/chromedriver84_win.exe");
 
     }

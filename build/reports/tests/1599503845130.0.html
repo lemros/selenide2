@@ -1,0 +1,155 @@
+<html lang="sk"><head>
+		<title>ESET ochrana online platieb a bankovníctva</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body class="consumer_color browser_been_opened">
+		<div class="container" dir="ltr">
+			<table>
+				<tbody><tr class="page_header">
+					<td class="col_size">
+						<div class="icon_logo"></div>
+					</td>
+					<td class="col_center"></td>
+					<td class="col_help" id="show_help">
+						<a href="https://help.eset.com/getHelp?product=glossary&amp;lang=1051&amp;topic=technology_online_protection" class="help"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Pomocník" class="icon_help"> Pomocník</a>
+					</td>
+				</tr>
+			</tbody></table>
+			<div class="envelope">
+				<div class="container_tables top_space">
+					<div class="place_logo icon_shield_logo"></div>
+					<div class="place_content">
+						
+						<div id="show_description" class="content_description padded">
+							
+							Zabezpečený prehliadač ESET chráni vaše osobné údaje pred kybernetickými zločincami pri využívaní online bankovníctva a webových kryptomenových peňaženiek.
+						</div>
+						<div id="show_warning1" class="content_warning yellow ">
+							<div class="icon_warning"></div>
+							<div class="content_text_bold">Ochrana online platieb bude plne funkčná až po reštarte počítača.</div>
+						</div>
+						<div id="show_warning2" class="content_warning yellow ">
+							<div class="icon_warning"></div>
+							<div class="content_text_bold">Ste pripojený na nezabezpečenú sieť Wi‑Fi. Cez túto sieť vám neodporúčame prihlasovať sa do online bankovníctva ani platiť na internete.</div>
+						</div>
+						<div id="show_warning3" class="content_warning yellow ">
+							<div class="icon_warning"></div>
+							<div class="content_text_bold">Tento počítač je riadený aplikáciou umožňujúcou vzdialený prístup. Nemusí byť preto bezpečné prihlasovať sa do internetového bankovníctva alebo uskutočňovať online platby. Ak aplikáciu používate zámerne, môžete túto správu ignorovať.</div>
+							<div class="content_text_bold" id="app_name_wrap">Aplikácia vzdialeného prístupu: <span id="app_name"></span></div>
+						</div>
+
+						<div id="show_loading" class="content_white middle">
+							<div class="center_fill">
+							   <div class="loading_description">Otvára sa zabezpečený prehliadač…</div>
+							   <div class="gif_loader"></div>
+							</div>
+						</div>
+						<div id="show_info" class="content_info green">
+							<div class="icon_info"></div>
+							<div class="content_text_bold">Zabezpečený prehliadač bol spustený</div>
+						</div>
+						<div id="show_form_error" class="content_warning yellow">
+							<div class="icon_warning"></div>
+							<div class="content_text_bold">Zabezpečený prehliadač nebolo možné spustiť</div>
+							<div class="content_text" id="errmsg1">Ak používate softvérové proxy, je potrebné ho vypnúť pre adresu spätnej slučky</div>
+							<div class="content_text" id="errmsg2">Priradený kód chyby: <span id="errcode"></span></div>
+							
+							<form class="content_text" action="http://bpp.eset.com/sk-SK/Redirect" method="GET">
+								<input type="hidden" name="token" value="dc7598510d617fa8f581d151">
+								<input type="submit" name="stay" value="Pokračovať bez zabezpečenia" class="button_white">
+							</form>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div id="show_form_ask" class="envelope sticky">
+				<div class="container_tables">
+					<div class="place_logo"></div>
+					<div class="place_content">
+						<div class="ask_description">Pokračovať v prehliadaní so zvýšenou ochranou?</div>
+						<form method="GET" action="http://bpp.eset.com/sk-SK/Redirect">
+							<input type="hidden" name="token" value="dc7598510d617fa8f581d151">
+							<input type="submit" name="switch" class="button_blue" value="Áno, chcem otvoriť zabezpečený prehliadač">
+							<input type="submit" name="stay" class="button_white_margin" value="Nie, chcem pokračovať bez zabezpečenia">
+							<div class="radio_choice">
+								<div>
+									<input type="radio" id="c_yes" name="save" value="1" checked="">
+									<label for="c_yes">Zapamätať si výber pre túto stránku</label>
+								</div>
+								<div>
+									<input type="radio" id="c_no" name="save" value="0">
+									<label for="c_no">Vždy sa opýtať</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="sentinel"></div>
+	<script>
+	if (document.body.classList.contains('redirect_ask'))
+		[].forEach.call(document.getElementsByClassName('warn_active'), function(elem) {
+			elem.style.display = 'table';
+		});
+	if ('IntersectionObserver' in window) {
+		const observer = new IntersectionObserver(function(records) {
+			if (records[0].intersectionRatio === 1.0)
+				document.querySelector('#show_form_ask').classList.remove('sticky_bordered');
+			else
+				document.querySelector('#show_form_ask').classList.add('sticky_bordered');
+		}, {
+			threshold: [0, 1],
+			root: document.querySelector('.container')
+		});
+		observer.observe(document.querySelector('#sentinel'));
+	}
+	</script>
+
+		</div>
+
+
+	<script>
+	function el(id) {return document.getElementById(id);}
+	function SwitchScreen(screen, success) {
+		document.body.classList.remove('opening_browser');
+		document.body.classList.add(screen);
+		if (success)
+			setTimeout(function(){window.open('','_self').close();}, 3000);
+	}
+	function s() {
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", "http://bpp.eset.com/sk-SK/Redirect-Status?token=dc7598510d617fa8f581d151&data=" + new Date().getTime(), true);
+		xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				try {
+					var res = JSON.parse(this.responseText);
+					if (res.code !== 0) {
+						el('errmsg' + res.code).style.display = "block";
+						if (res.value)
+							el('errcode').innerHTML = "0x" + res.value.toString(16);
+						SwitchScreen('browser_not_been_opened', false);
+					}
+					else {
+						setTimeout(s, 300);
+					}
+				} catch(e) {
+					SwitchScreen('browser_been_opened', true);
+				}
+			}
+			else if (this.readyState == 4 && this.status == 499) {
+				SwitchScreen('browser_been_opened', true);
+			}
+		};
+		xmlhttp.send();
+	}
+	setTimeout(s, 100);
+	</script>
+
+	
+</body></html>

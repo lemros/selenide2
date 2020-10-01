@@ -1,0 +1,1583 @@
+{
+  "id": "8ade3796-23ca-4eab-828a-64e8ec523cf9",
+  "version": "2.0",
+  "name": "https://moja.csob.sk/prihlasenie/krok-1",
+  "url": "https://moja.csob.sk",
+  "tests": [{
+    "id": "d839f8a9-9b2c-48f9-82b7-e374b97424cb",
+    "name": "1",
+    "commands": [{
+      "id": "c0a8a702-27d8-4a58-8ccf-34bb32dc4030",
+      "comment": "",
+      "command": "open",
+      "target": "/prihlasenie/krok-1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "713e079b-286b-409c-8997-2b81f9daaa9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1416",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e75225f-e4a5-4b0c-9851-0dd7adced9b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "49205082"
+    }, {
+      "id": "23a36bb6-8265-40e8-8354-c8c08a743be1",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "13579"
+    }, {
+      "id": "c681541a-b80c-43ae-b358-6fa6a0287206",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ad8366-c4ea-41e4-a59b-103e7aac20fe",
+      "comment": "",
+      "command": "type",
+      "target": "name=crontoInput",
+      "targets": [
+        ["name=crontoInput", "name"],
+        ["css=.focusableInput", "css:finder"],
+        ["xpath=//input[@name='crontoInput']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "01774186"
+    }, {
+      "id": "7f0981c3-5063-4acd-86b1-a6af0f445675",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.button:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b238f18e-1208-41b7-93f1-1c7e22053e58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PLATBY A POHYBY",
+      "targets": [
+        ["linkText=PLATBY A POHYBY", "linkText"],
+        ["css=.submenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PLATBY A POHYBY')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PLATBY A POHYBY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd97b0a-5443-4dd9-9e5a-f4e39bfe05fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEPA platba",
+      "targets": [
+        ["linkText=SEPA platba", "linkText"],
+        ["css=.active > .menu-content > .subsubmenu > .col-sm-4:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SEPA platba')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/div/ul/div/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./payment/sepa')])[2]", "xpath:href"],
+        ["xpath=//div/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9944e6c6-af6f-488a-b30a-e6c7cf3bdea8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control .account-name",
+      "targets": [
+        ["css=.form-control .account-name", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div/ib-payer/div[2]/div/ib-payment-products-dropdown/div/div/csob-dropdown/div/div/div[2]/ib-product-dropdown-item/div/div/div", "xpath:idRelative"],
+        ["xpath=//ib-product-dropdown-item/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "403d3d17-fbe3-4a75-9dcb-3c87b229914e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-1 > .fake-input-text",
+      "targets": [
+        ["css=.ng-tns-c94-1 > .fake-input-text", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div/csob-dropdown/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/csob-dropdown/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70bd6c44-9097-4d0f-98cb-dacdadf610dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-1:nth-child(2) .number:nth-child(6)",
+      "targets": [
+        ["css=.ng-tns-c94-1:nth-child(2) .number:nth-child(6)", "css:finder"],
+        ["xpath=//ib-sepa-template-dropdown-item/div/div/ib-iban/span[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7733b66-f2f3-45b2-9ab8-8d4911295f1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-link",
+      "targets": [
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Zadať pôvodný formát')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af657075-f054-49ac-ad50-b3eff41eb5b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=sepaPayment_bban_prefixNumber",
+      "targets": [
+        ["id=sepaPayment_bban_prefixNumber", "id"],
+        ["css=#sepaPayment_bban_prefixNumber", "css:finder"],
+        ["xpath=//input[@id='sepaPayment_bban_prefixNumber']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92a0c10-8fd7-4e19-bc46-6767f67f3c79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-invalid:nth-child(2)",
+      "targets": [
+        ["css=.ng-invalid:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]", "xpath:idRelative"],
+        ["xpath=//ib-sepa-payment-receiver/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba917244-d822-4ecd-ad43-735efa8b1f93",
+      "comment": "",
+      "command": "type",
+      "target": "id=sepaPayment_bban_prefixNumber",
+      "targets": [
+        ["id=sepaPayment_bban_prefixNumber", "id"],
+        ["css=#sepaPayment_bban_prefixNumber", "css:finder"],
+        ["xpath=//input[@id='sepaPayment_bban_prefixNumber']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "8b435e2f-8bcd-45b3-b5be-57e5d3194c59",
+      "comment": "",
+      "command": "click",
+      "target": "id=sepaPayment_bban_accountNumber",
+      "targets": [
+        ["id=sepaPayment_bban_accountNumber", "id"],
+        ["css=#sepaPayment_bban_accountNumber", "css:finder"],
+        ["xpath=//input[@id='sepaPayment_bban_accountNumber']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "394a2bf6-fbc8-4354-8f4a-41d17ef306d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=sepaPayment_bban_accountNumber",
+      "targets": [
+        ["id=sepaPayment_bban_accountNumber", "id"],
+        ["css=#sepaPayment_bban_accountNumber", "css:finder"],
+        ["xpath=//input[@id='sepaPayment_bban_accountNumber']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d615276c-672e-47b6-b864-26c919788d6d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=sepaPayment_bban_accountNumber",
+      "targets": [
+        ["id=sepaPayment_bban_accountNumber", "id"],
+        ["css=#sepaPayment_bban_accountNumber", "css:finder"],
+        ["xpath=//input[@id='sepaPayment_bban_accountNumber']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b3480bb-5cf8-4a34-8ec7-77779e1d060f",
+      "comment": "",
+      "command": "type",
+      "target": "id=sepaPayment_bban_accountNumber",
+      "targets": [
+        ["id=sepaPayment_bban_accountNumber", "id"],
+        ["css=#sepaPayment_bban_accountNumber", "css:finder"],
+        ["xpath=//input[@id='sepaPayment_bban_accountNumber']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "dabacf7b-286a-44b9-9200-f6dedf9f3ddd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bank-code-dropdown:nth-child(3)",
+      "targets": [
+        ["css=.bank-code-dropdown:nth-child(3)", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-sepa-payment-page/ib-sign-form/csob-section/section/div/div/form/csob-section/section/div/div/div/div[2]/ib-sepa-payment-receiver/div[2]/div[2]/ib-sepa-payment-account-number/div/div[2]/div[3]/div/csob-dropdown/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/csob-dropdown/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6f2b7c8-3f7c-4ac0-9996-683b6403b9a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(1) > .ng-tns-c94-2",
+      "targets": [
+        ["css=.item-container:nth-child(1) > .ng-tns-c94-2", "css:finder"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'0200 - Všeobecná úverová banka, a.s.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fc575653-f4af-491b-812f-e86464769b8f",
+    "name": "s",
+    "commands": [{
+      "id": "308de00d-1b7b-4051-8c0e-4be1fbeb066a",
+      "comment": "",
+      "command": "open",
+      "target": "/moja-csob",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f2a6bbf-e62b-41ab-a0d2-2b45e65d80cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1018",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16d9f8ca-7eb8-4e2d-b07e-5e9c3b6f6f29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open > .col-xs-6 > a",
+      "targets": [
+        ["css=.open > .col-xs-6 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ČSOB Extra Pohoda v EUR')]", "xpath:link"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-dashboard/ib-timeline/section/ib-transactions-group/ib-timeline-processed-transaction/ib-timeline-product/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#./product/5176578e09b9d11e42df29b474d10c6b218604702fa05a04046ed0c4771adb25')]", "xpath:href"],
+        ["xpath=//ib-timeline-product/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b60b38-e6b1-4885-a5d6-44173a3db44f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Transakcia platobnou kartou",
+      "targets": [
+        ["linkText=Transakcia platobnou kartou", "linkText"],
+        ["css=.ng-star-inserted:nth-child(3) > .row:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Transakcia platobnou kartou')]", "xpath:link"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-product-page/div/ib-product-transactions/section/csob-data-view/div/ib-transactions-group/ib-openable-item/ib-processed-transaction/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[121]", "xpath:href"],
+        ["xpath=//ib-processed-transaction/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Transakcia platobnou kartou')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cbd6dbe-484d-430a-b8a8-361d25c585a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Zobraziť pohyby (4)",
+      "targets": [
+        ["linkText=Zobraziť pohyby (4)", "linkText"],
+        ["css=.col-md-4 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Zobraziť pohyby (4)')]", "xpath:link"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-product-page/div/ib-product-transactions/section/csob-data-view/div/div/ib-transactions-collapsible-group[2]/div/div[2]/csob-collapse/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[119]", "xpath:href"],
+        ["xpath=//ib-transactions-collapsible-group[2]/div/div[2]/csob-collapse/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zobraziť pohyby (4) ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09b10ccb-1e2f-40d5-bd29-c78bbd695a1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Skryť pohyby (4)",
+      "targets": [
+        ["linkText=Skryť pohyby (4)", "linkText"],
+        ["css=.col-md-4 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Skryť pohyby (4)')]", "xpath:link"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-product-page/div/ib-product-transactions/section/csob-data-view/div/div/ib-transactions-collapsible-group[2]/div/div[2]/csob-collapse/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[119]", "xpath:href"],
+        ["xpath=//ib-transactions-collapsible-group[2]/div/div[2]/csob-collapse/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Skryť pohyby (4) ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4ad4342-2ad6-4b0a-814b-db0dab784c03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.csob-icon-set-pie-chart",
+      "targets": [
+        ["css=.csob-icon-set-pie-chart", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-product-page/div/ib-product-transactions/section/header/div/div[2]/div/csob-icon-button/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/csob-icon-button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "778f006e-7c29-44ed-8f9b-0346db438660",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,570)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7af066af-68af-4ab4-93a3-6d30314abbb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile-menu-text:nth-child(2)",
+      "targets": [
+        ["css=.mobile-menu-text:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='trigger']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb00d78-3026-460c-8299-7d1be9de949f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PLATBY A POHYBY",
+      "targets": [
+        ["linkText=PLATBY A POHYBY", "linkText"],
+        ["css=.submenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PLATBY A POHYBY')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PLATBY A POHYBY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d07e513-8128-45db-9299-961326a4295c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Výpisy",
+      "targets": [
+        ["linkText=Výpisy", "linkText"],
+        ["css=.active > .menu-content > .subsubmenu > .col-sm-4:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Výpisy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/div/ul/div[3]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./statements')])[2]", "xpath:href"],
+        ["xpath=//div[3]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a34395cf-b994-4e5e-83f2-f9d13412bb4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.collapse-control > .btn",
+      "targets": [
+        ["css=.collapse-control > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-statements-page/csob-section/section/div/div/ib-account-statements/ib-transactional-statements/ib-transactional-statements-settings-list/csob-section/section/header/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vytvoriť šablónu výpisu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92cd8eac-44ec-4fd3-9b97-3f74143d2f99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-5:nth-child(4)",
+      "targets": [
+        ["css=.ng-tns-c94-5:nth-child(4)", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-transactional-statements-setting-detail-page/csob-section/section/div/div/form/div/div/div/div/div/csob-dropdown/div/div/i", "xpath:idRelative"],
+        ["xpath=//div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eddac51d-ae6b-4bd6-95da-ed16c97ee630",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-list > .ng-tns-c94-5:nth-child(2)",
+      "targets": [
+        ["css=.item-list > .ng-tns-c94-5:nth-child(2)", "css:finder"],
+        ["xpath=//div[11]/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'týždenne')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e456ff2-20e5-419e-b44b-4233eeb52fda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-6 > .selected-item-default",
+      "targets": [
+        ["css=.ng-tns-c94-6 > .selected-item-default", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-transactional-statements-setting-detail-page/csob-section/section/div/div/form/div/div/div/div[2]/csob-dropdown/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/csob-dropdown/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9dcfcd8-9e81-4f49-a48d-1240d494ca0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(2) > .ng-tns-c94-6",
+      "targets": [
+        ["css=.item-container:nth-child(2) > .ng-tns-c94-6", "css:finder"],
+        ["xpath=//div[12]/ul/li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'angličtina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1e438f-bba2-444c-8fde-e32f9a36df6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4 > .ng-untouched .indicator",
+      "targets": [
+        ["css=.col-xs-4 > .ng-untouched .indicator", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-transactional-statements-setting-detail-page/csob-section/section/div/div/form/div/div/div/div[3]/div/div[2]/csob-checkbox/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/csob-checkbox/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba161a98-dc49-4f17-8c3c-23d6bcb481a8",
+    "name": "slider",
+    "commands": [{
+      "id": "b246a9b8-ee89-4f9e-9e3d-14ee33e81995",
+      "comment": "",
+      "command": "open",
+      "target": "/moja-csob",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e3c1e07-9d34-41e0-9695-198a006bc5d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1416",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fee3709a-b813-43dc-b09b-64a1ad54b990",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ONLINE NÁKUP",
+      "targets": [
+        ["linkText=ONLINE NÁKUP", "linkText"],
+        ["css=.submenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ONLINE NÁKUP')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ONLINE NÁKUP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f9673b-b55c-4f42-952c-0b7abd8bab84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.csob-icon-set-settings-filled > span",
+      "targets": [
+        ["css=.csob-icon-set-settings-filled > span", "css:finder"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nastavenia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf918a6f-bf3a-4d13-b4af-e2d2de31d9e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.csob-icon-set-user > span",
+      "targets": [
+        ["css=.csob-icon-set-user > span", "css:finder"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Môj profil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b15de305-f3b3-4415-9d38-d1c74b2b2a71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Zmluvy online nákupu",
+      "targets": [
+        ["linkText=Zmluvy online nákupu", "linkText"],
+        ["css=.float-right .col-sm-4:nth-child(2) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Zmluvy online nákupu')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[4]/div/ul/div[2]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./contracts')])[2]", "xpath:href"],
+        ["xpath=//li[4]/div/ul/div[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95d1e9f-8d3a-4501-8d5f-5337a4108122",
+      "comment": "",
+      "command": "click",
+      "target": "css=.csob-icon-set-user > span",
+      "targets": [
+        ["css=.csob-icon-set-user > span", "css:finder"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Môj profil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c260da-c1b6-4942-8295-995ca06e188c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.csob-icon-set-settings-filled > span",
+      "targets": [
+        ["css=.csob-icon-set-settings-filled > span", "css:finder"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nastavenia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a24e81d-cb2f-48f8-b6b6-a11572fac6f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ONLINE NÁKUP",
+      "targets": [
+        ["linkText=ONLINE NÁKUP", "linkText"],
+        ["css=.submenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ONLINE NÁKUP')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ONLINE NÁKUP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cd00a40-6ea5-454e-a5de-180fbe284725",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PLATBY A POHYBY",
+      "targets": [
+        ["linkText=PLATBY A POHYBY", "linkText"],
+        ["css=.submenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PLATBY A POHYBY')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PLATBY A POHYBY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ee08a77-d2ac-46f4-b961-620aa3abdef9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Výpisy",
+      "targets": [
+        ["linkText=Výpisy", "linkText"],
+        ["css=.active > .menu-content > .subsubmenu > .col-sm-4:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Výpisy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/div/ul/div[3]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./statements')])[2]", "xpath:href"],
+        ["xpath=//div[3]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31138ef3-f057-4844-95b6-24e9f233cb14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ONLINE NÁKUP",
+      "targets": [
+        ["linkText=ONLINE NÁKUP", "linkText"],
+        ["css=.submenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ONLINE NÁKUP')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ONLINE NÁKUP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d46916a-c3c0-486f-a49f-208bcea7adde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PLATBY A POHYBY",
+      "targets": [
+        ["linkText=PLATBY A POHYBY", "linkText"],
+        ["css=.submenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PLATBY A POHYBY')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PLATBY A POHYBY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "542b2487-7437-47f3-a5ed-ec3d33bb6be1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Finančné trhy",
+      "targets": [
+        ["linkText=Finančné trhy", "linkText"],
+        ["css=.active > .menu-content > .subsubmenu > .col-sm-4:nth-child(3) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Finančné trhy')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/div/ul/div[3]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/moja-csob#./deals')]", "xpath:href"],
+        ["xpath=//div[3]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Finančné trhy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "402dd631-8f5f-4583-83de-d00dea32d03e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.csob-icon-set-filter",
+      "targets": [
+        ["css=.csob-icon-set-filter", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/header/div/div[2]/div/csob-icon-button/i", "xpath:idRelative"],
+        ["xpath=//csob-icon-button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d359816-1f50-4f0d-a0ba-325f1949ebdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(1) .icon",
+      "targets": [
+        ["css=.col-xs-6:nth-child(1) .icon", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/div/div/form/div/div/div/div/csob-datepicker/div/i", "xpath:idRelative"],
+        ["xpath=//div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74deca90-bb9d-4a4b-b74c-53d55ed5d9df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previous > span",
+      "targets": [
+        ["css=.previous > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae5d43c-4c18-4430-a6f1-439e5e3ffe3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previous > span",
+      "targets": [
+        ["css=.previous > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'‹')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f3cd4ef-09fe-4ac4-9341-7e26d883ad64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-highlighted",
+      "targets": [
+        ["css=.is-highlighted", "css:finder"],
+        ["xpath=//tr[2]/td[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff15df03-d245-4f6b-83c3-667c0d989955",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(2) .icon",
+      "targets": [
+        ["css=.col-xs-6:nth-child(2) .icon", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/div/div/form/div/div/div[2]/div/csob-datepicker/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/csob-datepicker/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d00ec9-d3e0-4489-b7ec-8306342beb5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-highlighted",
+      "targets": [
+        ["css=.is-highlighted", "css:finder"],
+        ["xpath=//tr[2]/td[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b37230e7-758e-473e-bfbb-7de26bcc4f1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-3 > .selected-item-default",
+      "targets": [
+        ["css=.ng-tns-c94-3 > .selected-item-default", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/div/div/form/div/div/div[4]/csob-dropdown/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//csob-dropdown/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa10a3d-7986-4cd4-bc39-d0a1f802f3c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(3) > .ng-tns-c94-3",
+      "targets": [
+        ["css=.item-container:nth-child(3) > .ng-tns-c94-3", "css:finder"],
+        ["xpath=//li[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Úrokové transakcie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db606546-784b-4cbe-bae6-26c95a009eed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-4 > .selected-item-default",
+      "targets": [
+        ["css=.ng-tns-c94-4 > .selected-item-default", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/div/div/form/div/div/div[5]/csob-dropdown/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/csob-dropdown/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06e6f0a0-5c66-47f6-9893-1f189e549600",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-4:nth-child(4) > .ng-tns-c94-4",
+      "targets": [
+        ["css=.ng-tns-c94-4:nth-child(4) > .ng-tns-c94-4", "css:finder"],
+        ["xpath=//div[11]/ul/li[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2. upomienka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3dcf84-d589-418c-826d-fc093a995428",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/div/div/form/div/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrovať')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6730e3-5a69-4c54-aaac-a0369964d5f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close-text",
+      "targets": [
+        ["css=.close-text", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-deals/ib-deals-filter/ib-simple-filter/csob-section/section/div/div/form/div/ib-close-filter-icon/a/span", "xpath:idRelative"],
+        ["xpath=//ib-close-filter-icon/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zavrieť')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d54726ee-ba2d-4949-b8a8-dfc6bf19eb46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ONLINE NÁKUP",
+      "targets": [
+        ["linkText=ONLINE NÁKUP", "linkText"],
+        ["css=.submenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ONLINE NÁKUP')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ONLINE NÁKUP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "660701d8-ef45-48a6-9335-7f9686aea6ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sporiace účty",
+      "targets": [
+        ["linkText=Sporiace účty", "linkText"],
+        ["css=.active > .menu-content > .subsubmenu > .col-sm-4:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sporiace účty')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/div/ul/div/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./sales/savings-accounts')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/ul/div/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28bf6843-487b-4ebd-b5ef-bae9c7a563a7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ui-state-active",
+      "targets": [
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": "17.296875,6"
+    }, {
+      "id": "d4a0e638-d743-4826-bf29-cbe4ac5ec72d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ui-state-active",
+      "targets": [
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": "17.296875,6"
+    }, {
+      "id": "9c3b125f-955b-42af-8115-42df62a5cdaa",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ui-state-active",
+      "targets": [
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": "17.296875,6"
+    }, {
+      "id": "dfddd2ba-f68e-4e5c-9b0d-2480a3b2ad44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-state-focus",
+      "targets": [
+        ["css=.ui-state-focus", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c389f1-89ab-43b9-8790-6644e5cbcb0b",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ui-state-active",
+      "targets": [
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[3]/td[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[83]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "-117.9375,13"
+    }, {
+      "id": "4e2dc09f-ab5f-4ddc-93cf-94794412762e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ui-state-active",
+      "targets": [
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[3]/td[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[83]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "23.0625,5"
+    }, {
+      "id": "44ef390f-2838-4872-8017-104092e03ed3",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ui-state-active",
+      "targets": [
+        ["css=.ui-state-active", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[3]/td[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[83]", "xpath:href"],
+        ["xpath=//td[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "23.0625,5"
+    }, {
+      "id": "b9904e57-d4b7-4fb8-af93-c39acaa9344b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relativeWrapper > .relativeWrapper .speed-common-slider",
+      "targets": [
+        ["css=.relativeWrapper > .relativeWrapper .speed-common-slider", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[3]/td[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdd1ba4e-bb0a-499b-8b61-4dbb22ac10cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox > .picture",
+      "targets": [
+        ["css=.checkbox > .picture", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "988197fe-a194-4dd7-808f-fd74aee98b10",
+      "comment": "",
+      "command": "click",
+      "target": "id=formData.formObject.monthlyPayment",
+      "targets": [
+        ["id=formData.formObject.monthlyPayment", "id"],
+        ["name=formData.formObject.monthlyPayment", "name"],
+        ["css=#formData\\.formObject\\.monthlyPayment", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.monthlyPayment']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f58fb61-87a1-45e6-b9ce-f90f14fe9bde",
+      "comment": "",
+      "command": "click",
+      "target": "id=formData.formObject.monthlyPayment",
+      "targets": [
+        ["id=formData.formObject.monthlyPayment", "id"],
+        ["name=formData.formObject.monthlyPayment", "name"],
+        ["css=#formData\\.formObject\\.monthlyPayment", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.monthlyPayment']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba11ab5-d12f-4f84-b04f-d7969707d388",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=formData.formObject.monthlyPayment",
+      "targets": [
+        ["id=formData.formObject.monthlyPayment", "id"],
+        ["name=formData.formObject.monthlyPayment", "name"],
+        ["css=#formData\\.formObject\\.monthlyPayment", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.monthlyPayment']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a649e0-b46d-465d-a790-8ee88b51afc5",
+      "comment": "",
+      "command": "type",
+      "target": "id=formData.formObject.monthlyPayment",
+      "targets": [
+        ["id=formData.formObject.monthlyPayment", "id"],
+        ["name=formData.formObject.monthlyPayment", "name"],
+        ["css=#formData\\.formObject\\.monthlyPayment", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.monthlyPayment']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr[2]/td[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "15.0"
+    }, {
+      "id": "e9e648c6-f9e8-45ae-b5c4-42d1616f2615",
+      "comment": "",
+      "command": "click",
+      "target": "css=.savings_products-regular > tr:nth-child(1) > td:nth-child(3)",
+      "targets": [
+        ["css=.savings_products-regular > tr:nth-child(1) > td:nth-child(3)", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-savings-products-top-table']/tbody[2]/tr/td[3]", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5c5adc3-896c-440c-b90b-4ccbac134efd",
+      "comment": "",
+      "command": "click",
+      "target": "id=speed-sales-forms-summary-calculator-greenbutton",
+      "targets": [
+        ["id=speed-sales-forms-summary-calculator-greenbutton", "id"],
+        ["name=submit1", "name"],
+        ["css=.product-0 > #speed-sales-forms-summary-calculator-greenbutton", "css:finder"],
+        ["xpath=//input[@id='speed-sales-forms-summary-calculator-greenbutton']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd12186-47f2-43be-b9e5-a48f9730bdab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=speed-sales-forms-summary-calculator-greenbutton",
+      "targets": [
+        ["id=speed-sales-forms-summary-calculator-greenbutton", "id"],
+        ["name=submit1", "name"],
+        ["css=.product-0 > #speed-sales-forms-summary-calculator-greenbutton", "css:finder"],
+        ["xpath=//input[@id='speed-sales-forms-summary-calculator-greenbutton']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a85c8cfb-3862-49ed-ab94-c2c5bdc9b4b5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=speed-sales-forms-summary-calculator-greenbutton",
+      "targets": [
+        ["id=speed-sales-forms-summary-calculator-greenbutton", "id"],
+        ["name=submit1", "name"],
+        ["css=.product-0 > #speed-sales-forms-summary-calculator-greenbutton", "css:finder"],
+        ["xpath=//input[@id='speed-sales-forms-summary-calculator-greenbutton']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dbeee8e-06e2-4302-8cf8-f79a20fa7e76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ONLINE NÁKUP",
+      "targets": [
+        ["linkText=ONLINE NÁKUP", "linkText"],
+        ["css=.submenu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ONLINE NÁKUP')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ONLINE NÁKUP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f4fcd3-e579-479b-a47a-88114328ecc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bežné účty",
+      "targets": [
+        ["linkText=Bežné účty", "linkText"],
+        ["css=.active > .menu-content > .subsubmenu > .col-sm-4:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bežné účty')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[3]/div/ul/div/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./sales/basic-accounts')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/ul/div/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "062b58c1-49a0-410b-a8fd-cd0dcd1478fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit2",
+      "targets": [
+        ["name=submit2", "name"],
+        ["css=.speed-sales-form-currentAccount-col-2 > #speed-sales-forms-summary-calculator-greenbutton", "css:finder"],
+        ["xpath=(//input[@id='speed-sales-forms-summary-calculator-greenbutton'])[2]", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount']/tbody/tr[6]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d18fca87-0c38-4a7b-b0b0-95569c06dc14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.speed-sales-form-currentAccount-card-col-2 .picture",
+      "targets": [
+        ["css=.speed-sales-form-currentAccount-card-col-2 .picture", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card']/tbody/tr[2]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43409600-60fb-47ec-8f72-fa61dda44f6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.speed-sales-form-currentAccount-card-col-1 .picture",
+      "targets": [
+        ["css=.speed-sales-form-currentAccount-card-col-1 .picture", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card']/tbody/tr[2]/td/div/div", "xpath:idRelative"],
+        ["xpath=//td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0d8877-1390-4267-bdc3-48a93274a139",
+      "comment": "",
+      "command": "click",
+      "target": "css=.speed-sales-forms-components-picture-alignment",
+      "targets": [
+        ["css=.speed-sales-forms-components-picture-alignment", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[4]/td/label/span/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49039abe-37bc-4ffd-8436-b239630c8beb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.speed-sales-forms-components-picture-alignment",
+      "targets": [
+        ["css=.speed-sales-forms-components-picture-alignment", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[4]/td/label/span/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a66309-f9a8-471e-88d4-2fd7cf8c06cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field > .text",
+      "targets": [
+        ["css=.field > .text", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[5]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be884fb4-7419-4195-b314-8a9d71bcd316",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover",
+      "targets": [
+        ["css=.hover", "css:finder"],
+        ["xpath=//div[@value='EXCLUSIVE_FAMILY']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[5]/td[2]/div/div[3]/div[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d757e1ea-0e17-4a63-a2c0-e7a3cf94c688",
+      "comment": "",
+      "command": "click",
+      "target": "css=.speed-common-question-container:nth-child(2) .relativeWrapper > .relativeWrapper > .relativeWrapper > .relativeWrapper",
+      "targets": [
+        ["css=.speed-common-question-container:nth-child(2) .relativeWrapper > .relativeWrapper > .relativeWrapper > .relativeWrapper", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[2]/td/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29fa2e1f-e8b8-48fd-81ca-d37c0e64bd5a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ui-state-hover",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr/td/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "11.828125,14"
+    }, {
+      "id": "1da442e2-ddc9-4483-a37e-7bbba2a046ed",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ui-state-hover",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr/td/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "11.828125,14"
+    }, {
+      "id": "f1234e6b-340a-479b-bed5-53e43dea31ca",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ui-state-hover",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr/td/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": "11.828125,14"
+    }, {
+      "id": "4dfc9aaa-ff43-47c9-82de-dde554ef5aba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-state-hover",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr/td/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[82]", "xpath:href"],
+        ["xpath=//td/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7e4f3f-2221-4261-b22e-bf7ce2e6eed3",
+      "comment": "",
+      "command": "click",
+      "target": "id=formData.formObject.internetPaymentsLimit",
+      "targets": [
+        ["id=formData.formObject.internetPaymentsLimit", "id"],
+        ["name=formData.formObject.internetPaymentsLimit", "name"],
+        ["css=#formData\\.formObject\\.internetPaymentsLimit", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.internetPaymentsLimit']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[2]/td/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "592bc027-644a-4f4f-bc2e-8574829aeb5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=formData.formObject.internetPaymentsLimit",
+      "targets": [
+        ["id=formData.formObject.internetPaymentsLimit", "id"],
+        ["name=formData.formObject.internetPaymentsLimit", "name"],
+        ["css=#formData\\.formObject\\.internetPaymentsLimit", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.internetPaymentsLimit']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[2]/td/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9b2861-12c7-48a1-8b8e-74fc763f341b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=formData.formObject.internetPaymentsLimit",
+      "targets": [
+        ["id=formData.formObject.internetPaymentsLimit", "id"],
+        ["name=formData.formObject.internetPaymentsLimit", "name"],
+        ["css=#formData\\.formObject\\.internetPaymentsLimit", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.internetPaymentsLimit']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[2]/td/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ef02f22-7fa6-4adb-9158-25b66ea5dc29",
+      "comment": "",
+      "command": "type",
+      "target": "id=formData.formObject.internetPaymentsLimit",
+      "targets": [
+        ["id=formData.formObject.internetPaymentsLimit", "id"],
+        ["name=formData.formObject.internetPaymentsLimit", "name"],
+        ["css=#formData\\.formObject\\.internetPaymentsLimit", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.internetPaymentsLimit']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[2]/td/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "7bb8d191-3916-4bb8-ac76-b8097b960302",
+      "comment": "",
+      "command": "click",
+      "target": "css=.speed-sales-forms-currentAccount-col1",
+      "targets": [
+        ["css=.speed-sales-forms-currentAccount-col1", "css:finder"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount']/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/table/tbody/tr/td/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f704b11-381b-4251-9a84-689da41a19b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit2",
+      "targets": [
+        ["name=submit2", "name"],
+        ["css=.speed-common-button-green", "css:finder"],
+        ["xpath=//input[@name='submit2']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33a7e3f8-ba32-4c77-8116-03273b8cd159",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=submit2",
+      "targets": [
+        ["name=submit2", "name"],
+        ["css=.speed-common-button-green", "css:finder"],
+        ["xpath=//input[@name='submit2']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "175f84d7-873a-469e-8b3b-a1b656b1fb32",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=submit2",
+      "targets": [
+        ["name=submit2", "name"],
+        ["css=.speed-common-button-green", "css:finder"],
+        ["xpath=//input[@name='submit2']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b07b494-059b-4e5b-8313-659fdcaf519c",
+      "comment": "",
+      "command": "click",
+      "target": "id=formData.formObject.smsCreditCardPhoneNumber",
+      "targets": [
+        ["id=formData.formObject.smsCreditCardPhoneNumber", "id"],
+        ["name=formData.formObject.smsCreditCardPhoneNumber", "name"],
+        ["css=#formData\\.formObject\\.smsCreditCardPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.smsCreditCardPhoneNumber']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[3]/td/span[3]/input", "xpath:idRelative"],
+        ["xpath=//span[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c0d4e2-39b0-4732-8599-f84b500b3306",
+      "comment": "",
+      "command": "type",
+      "target": "id=formData.formObject.smsCreditCardPhoneNumber",
+      "targets": [
+        ["id=formData.formObject.smsCreditCardPhoneNumber", "id"],
+        ["name=formData.formObject.smsCreditCardPhoneNumber", "name"],
+        ["css=#formData\\.formObject\\.smsCreditCardPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='formData.formObject.smsCreditCardPhoneNumber']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-currentAccount-card-limits']/tbody/tr[3]/td/span[3]/input", "xpath:idRelative"],
+        ["xpath=//span[3]/input", "xpath:position"]
+      ],
+      "value": "+42190000000"
+    }, {
+      "id": "630a1de5-d3a2-4328-bffa-8e083d37628f",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit2",
+      "targets": [
+        ["name=submit2", "name"],
+        ["css=.speed-common-button-green", "css:finder"],
+        ["xpath=//input[@name='submit2']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_salesforms_WAR_salesforms']/div/div/div/div[2]/div[2]/form/div[2]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//div/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc20f22f-9a4f-40db-ae47-3f07d9e05354",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select",
+      "targets": [
+        ["css=.select", "css:finder"],
+        ["xpath=//div[@name='formData.formObject.cardDeliveryAddress.city']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-table-input']/tbody/tr[19]/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17a5a1e4-ad59-43a2-80d3-9190f3f646a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover",
+      "targets": [
+        ["css=.hover", "css:finder"],
+        ["xpath=//div[@value='Trnava - Modranka']", "xpath:attributes"],
+        ["xpath=//table[@id='speed-sales-forms-table-input']/tbody/tr[19]/td[2]/div/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "41ebfdef-ec61-4e47-b69d-702378e3c8c9",
+    "name": "inkaso",
+    "commands": [{
+      "id": "613e0a10-7bec-46b6-98c4-58f6029e7c09",
+      "comment": "",
+      "command": "open",
+      "target": "/moja-csob",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1b91070-d285-4bdc-b053-3ce8139a19fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1416",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "143422a2-216c-4ae3-bba7-f94048185324",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PLATBY A POHYBY",
+      "targets": [
+        ["linkText=PLATBY A POHYBY", "linkText"],
+        ["css=.submenu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PLATBY A POHYBY')]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PLATBY A POHYBY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6973774-780e-4e31-855b-194a3b1b0b0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Súhlasy s inkasom",
+      "targets": [
+        ["linkText=Súhlasy s inkasom", "linkText"],
+        ["css=.col-sm-4:nth-child(1) > li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Súhlasy s inkasom')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mp-pusher']/div/div/header/div/div/ul[2]/li[4]/div/ul/li[2]/div/ul/div/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moja-csob#./direct-debit-authorizations')])[2]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b28dc38-7567-4b5b-86d8-7b5473ee3400",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-page/csob-section/section/div/div/ib-product-filter/ib-advanced-search-filter/form/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Nový súhlas s inkasom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf57b28-c95d-4202-ba56-c9a7390fd4c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-page/csob-section/section/div/div/ib-product-filter/ib-advanced-search-filter/form/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Nový súhlas s inkasom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "783f893d-fb20-4c37-96c4-258e1a23342e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c94-2 > .selected-item-default",
+      "targets": [
+        ["css=.ng-tns-c94-2 > .selected-item-default", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[3]/div[3]/div/div/csob-dropdown/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//csob-dropdown/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b6f32ae-f608-4d59-bc88-5be8f368c5e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-list > .ng-tns-c94-2:nth-child(1)",
+      "targets": [
+        ["css=.item-list > .ng-tns-c94-2:nth-child(1)", "css:finder"],
+        ["xpath=//div[11]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'S limitom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6c73b0-8e35-4f28-85f9-18ce0fab62ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=receiverName",
+      "targets": [
+        ["id=receiverName", "id"],
+        ["css=#receiverName", "css:finder"],
+        ["xpath=//input[@id='receiverName']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[3]/div[2]/div/div/div/p-autocomplete/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "967f3443-fd91-4107-bf07-8ec9fb03f819",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-autocomplete-dropdown",
+      "targets": [
+        ["css=.ui-autocomplete-dropdown", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[3]/div[2]/div/div/div/p-autocomplete/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcd34042-5327-4d70-8aaa-e4233060de99",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ui-autocomplete-dropdown",
+      "targets": [
+        ["css=.ui-autocomplete-dropdown", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[3]/div[2]/div/div/div/p-autocomplete/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2914cf97-6219-40e9-a6d2-6b06383fc534",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ui-autocomplete-dropdown",
+      "targets": [
+        ["css=.ui-autocomplete-dropdown", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[3]/div[2]/div/div/div/p-autocomplete/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba734b28-7860-4f43-8414-93a53f9c8283",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-highlighted-option",
+      "targets": [
+        ["id=p-highlighted-option", "id"],
+        ["css=#p-highlighted-option", "css:finder"],
+        ["xpath=//li[@id='p-highlighted-option']", "xpath:attributes"],
+        ["xpath=//ul[@id='pr_id_1_list']/li[4]", "xpath:idRelative"],
+        ["xpath=//div[13]/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'O2 Slovakia, s.r.o.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c75793-7e0b-4987-a34f-81f05de57075",
+      "comment": "",
+      "command": "click",
+      "target": "id=directDebitAuthorizationDetail_toDate",
+      "targets": [
+        ["id=directDebitAuthorizationDetail_toDate", "id"],
+        ["css=#directDebitAuthorizationDetail_toDate", "css:finder"],
+        ["xpath=//input[@id='directDebitAuthorizationDetail_toDate']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[4]/div/div[2]/div/csob-datepicker/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/csob-datepicker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0630a506-40b7-483c-ab10-cea3ea014b92",
+      "comment": "",
+      "command": "type",
+      "target": "id=directDebitAuthorizationDetail_toDate",
+      "targets": [
+        ["id=directDebitAuthorizationDetail_toDate", "id"],
+        ["css=#directDebitAuthorizationDetail_toDate", "css:finder"],
+        ["xpath=//input[@id='directDebitAuthorizationDetail_toDate']", "xpath:attributes"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[4]/div/div[2]/div/csob-datepicker/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/csob-datepicker/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e27f127-8adf-4270-94e6-be5d6ba7552b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.section-row:nth-child(4) > .ng-touched",
+      "targets": [
+        ["css=.section-row:nth-child(4) > .ng-touched", "css:finder"],
+        ["xpath=//section[@id='portlet_ib_WAR_private']/div/div/div/ib-root/block-ui/ib-direct-debit-authorization-detail-page/ib-sign-form/csob-section/section/div/div/form/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1a9bbbd-6eed-46b5-926d-b4271f367f74",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d839f8a9-9b2c-48f9-82b7-e374b97424cb"]
+  }],
+  "urls": ["https://moja.csob.sk/"],
+  "plugins": []
+}
